@@ -1,0 +1,100 @@
+[
+  {
+    "timestamp": "2025-05-10T13:35:56.225Z",
+    "event": "Init",
+    "gameState": "menu",
+    "currentLevel": 1,
+    "stageIndex": 0,
+    "crowdSize": 5,
+    "worldOffset": 0,
+    "gatesRemaining": 0,
+    "enemiesRemaining": 0
+  },
+  {
+    "timestamp": "2025-05-10T13:35:59.002Z",
+    "event": "startLevel",
+    "gameState": "menu",
+    "currentLevel": 1,
+    "stageIndex": 0,
+    "crowdSize": 5,
+    "worldOffset": 0,
+    "gatesRemaining": 0,
+    "enemiesRemaining": 0,
+    "level": 1
+  },
+  {
+    "timestamp": "2025-05-10T13:35:59.003Z",
+    "event": "generateStage",
+    "gameState": "menu",
+    "currentLevel": 1,
+    "stageIndex": 0,
+    "crowdSize": 5,
+    "worldOffset": 0,
+    "gatesRemaining": 10,
+    "enemiesRemaining": 10,
+    "gatesCount": 10,
+    "enemiesCount": 10
+  },
+  {
+    "timestamp": "2025-05-10T13:36:10.901Z",
+    "event": "enemyEncounter",
+    "gameState": "playing",
+    "currentLevel": 1,
+    "stageIndex": 0,
+    "crowdSize": 5,
+    "worldOffset": 1190.2000000000044,
+    "gatesRemaining": 10,
+    "enemiesRemaining": 10,
+    "enemyN": 10,
+    "crowdSizeBefore": 5
+  },
+  {
+    "timestamp": "2025-05-10T13:36:10.901Z",
+    "event": "levelFailed",
+    "gameState": "over",
+    "currentLevel": 1,
+    "stageIndex": 0,
+    "crowdSize": 5,
+    "worldOffset": 1190.2000000000044,
+    "gatesRemaining": 10,
+    "enemiesRemaining": 10,
+    "level": 1,
+    "finalCrowdSize": 5
+  },
+  {
+    "timestamp": "2025-05-10T13:36:13.804Z",
+    "event": "goMenu",
+    "gameState": "menu",
+    "currentLevel": 1,
+    "stageIndex": 0,
+    "crowdSize": 5,
+    "worldOffset": 1190.2000000000044,
+    "gatesRemaining": 10,
+    "enemiesRemaining": 10
+  },
+  {
+    "timestamp": "2025-05-10T13:36:14.486Z",
+    "event": "startLevel",
+    "gameState": "menu",
+    "currentLevel": 1,
+    "stageIndex": 0,
+    "crowdSize": 5,
+    "worldOffset": 1190.2000000000044,
+    "gatesRemaining": 10,
+    "enemiesRemaining": 10,
+    "level": 1
+  },
+  {
+    "timestamp": "2025-05-10T13:36:14.486Z",
+    "event": "generateStage",
+    "gameState": "menu",
+    "currentLevel": 1,
+    "stageIndex": 0,
+    "crowdSize": 5,
+    "worldOffset": 0,
+    "gatesRemaining": 10,
+    "enemiesRemaining": 10,
+    "gatesCount": 10,
+    "enemiesCount": 10
+  }
+]
