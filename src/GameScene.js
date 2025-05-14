@@ -27,16 +27,15 @@ class GameScene extends Phaser.Scene {
     this.add.tileSprite(0, 0, width, height, 'bg').setOrigin(0);
     this.add.tileSprite(0, 0, wallWidth, height, 'wall').setOrigin(0);
     this.add.tileSprite(width - wallWidth, 0, wallWidth, height, 'wall').setOrigin(0);
-    // Player square
-    this.player = this.add.rectangle(
-      this.trackX + this.trackWidth / 2,
-      height - this.cellSize - 20,
-      this.cellSize,
-      this.cellSize,
-      0x0000ff
-    ).setOrigin(0.5);
-    this.playerY = this.player.y;
+    // Player group (blue squares representing crowd)
     this.playerSpeed = 200;
+    this.playerY = height - this.cellSize - 20;
+    this.playerContainer = this.add.container(
+      this.trackX + this.trackWidth / 2,
+      this.playerY
+    );
+    this.lastCount = this.count;
+    this.updatePlayers();
     // Input
     this.cursors = this.input.keyboard.createCursorKeys();
     this.keyA = this.input.keyboard.addKey('A');
